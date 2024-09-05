@@ -1,0 +1,30 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Django
+*.log
+db.sqlite3
+media/
+
+# Ignore virtual environments
+env/
+venv/
+*.env
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore Python bytecode and package files
+*.egg
+*.egg-info/
+.eggs/
+
+# Ignore static and compiled assets
+staticfiles/
+node_modules/
+
+# Ignore migrations (optional, if you don't want to upload migrations)
+*/migrations/
