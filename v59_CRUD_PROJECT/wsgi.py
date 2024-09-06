@@ -14,3 +14,6 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'v59_CRUD_PROJECT.settings')
 
 application = get_wsgi_application()
+
+# to ensure we are connecting to django app
+app = application
