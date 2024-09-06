@@ -27,6 +27,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# ALLOWED_HOSTS = ['.vercel.app']
+# ALLOWED_HOSTS = ['django-crud-operations-with-fbv-and-modelform.vercel.app']
+
+
 
 # Application definition
 
