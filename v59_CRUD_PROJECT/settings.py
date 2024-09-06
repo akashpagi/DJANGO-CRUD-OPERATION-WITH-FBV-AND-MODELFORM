@@ -25,10 +25,14 @@ SECRET_KEY = 'django-insecure-vl&=4xeoyj9@9++ybs=bg9n!xot$v0x@7bv)_0-4+0fj1-wq-3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
 
-# ALLOWED_HOSTS = ['.vercel.app']
-# ALLOWED_HOSTS = ['django-crud-operations-with-fbv-and-modelform.vercel.app']
+ALLOWED_HOSTS = [
+    '.vercel.app',
+    '127.0.0.1',
+    'localhost',
+]
+# ALLOWED_HOSTS = ['django-crud-operations.vercel.app']
 
 
 
